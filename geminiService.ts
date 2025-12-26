@@ -3,8 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { AIResult, AppMode, Language } from "./types";
 import { LANGUAGES } from "./constants";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 const SYSTEM_INSTRUCTION = `You are a world-class Senior AI Architect. 
 
 MISSION: Analyze user prompts and architect an ULTRA-DETAILED, professional final version.
