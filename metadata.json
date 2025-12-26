@@ -1,0 +1,8 @@
+{
+  "name": "PromptLock - Elite Prompt Architect",
+  "description": "A luxury AI prompt engineering platform that locks your vision while architecting professional, copy-paste ready outputs with full transparency.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
